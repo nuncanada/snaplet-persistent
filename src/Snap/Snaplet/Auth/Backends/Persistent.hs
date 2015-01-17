@@ -30,6 +30,7 @@ module Snap.Snaplet.Auth.Backends.Persistent
 import           Control.Monad
 import           Control.Monad.Trans
 import qualified Data.HashMap.Strict                         as HM
+import           Data.Map.Syntax                             (mapV)
 import           Data.Maybe
 import           Data.Text                                   (Text)
 import qualified Data.Text                                   as T
